@@ -1,7 +1,6 @@
 
 
 # INSTRUÇÕES
-# Separe o código em módulos em arquivos diferentes, sendo estes main, get_data e process_data
 # Renomeie o código para nomes que indiquem as funcionalidades
 # Insira comentários sobre as funções
 
@@ -15,4 +14,5 @@ def main():
     df.to_excel('RESUMO.xlsx')
 
 
-# compõe a parte de processamento dos dados
+def not_necessary():
+    return False
